@@ -1,3 +1,9 @@
+@font-face {
+  font-family: roboto;
+  src: url(/fonts/Roboto.tiff) format('tiff');
+}
+
+
 html,
 body {
     margin: 0;
@@ -69,7 +75,7 @@ a {
     text-decoration: none;
     font-size: 1em;
     font-weight: 300;
-    font-family: Arial;
+    font-family: Roboto;
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 0 12px 0 12px;
@@ -124,7 +130,7 @@ h2,
 h3 {
     margin: 30px auto 0px;
     text-transform: capitalize;
-    font-family: Arial;
+    font-family: Roboto;
     font-size: 25px;
     color: black;
     width: 90%;
@@ -134,7 +140,7 @@ p {
     margin: 10px auto;
     width: 90%;
     color: darkgrey;
-    font-family: Arial;
+    font-family: roboto;
     font-size: .9em;
     font-weight: 400;
     line-height: 2.0;
@@ -156,7 +162,7 @@ table {
 
 th {
     text-align: left;
-    font-family: Arial;
+    font-family: roboto;
     padding: 10px 0 10px 0;
     font-size: 2em;
 
@@ -166,7 +172,7 @@ td {
     border-bottom: 1px solid #ddd;
     text-align: left;
     font-weight: 600;
-    font-family: Arial;
+    font-family: roboto;
     padding: 10px 10px 10px 0;
 }
 
@@ -231,7 +237,7 @@ form input[type=text] {
     margin: 5px;
     border-radius: 5px;
     border: 1px solid darkgrey;
-    font-family: Arial;
+    font-family: roboto;
     font-size: 1em;
 }
 
@@ -257,7 +263,7 @@ form p {
     width: 90%;
     margin: 10px;
     color: darkgrey;
-    font-family: Arial;
+    font-family: roboto;
     font-size: 1em;
     font-weight: 400;
     line-height: 2.0;

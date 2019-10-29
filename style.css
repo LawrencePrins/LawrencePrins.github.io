@@ -1,3 +1,8 @@
+@font-face {
+  font-family: roboto;
+  src: url(/fonts/Roboto.tiff) format('tiff');
+}
+
 
 html,
 body {
@@ -70,7 +75,7 @@ a {
     text-decoration: none;
     font-size: 1em;
     font-weight: 300;
-    font-family: Arial;
+    font-family: Roboto;
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 0 12px 0 12px;
@@ -138,7 +143,7 @@ p {
     margin: 20px;
     text-align: left;
     line-height: 2.0;
-    font-family: Arial;
+    font-family: roboto;
     font-size: .9em;
     font-weight: 400;
     color: #1f3933;
@@ -244,7 +249,7 @@ form input[type=text] {
     margin: 5px;
     border-radius: 5px;
     border: 1px solid darkgrey;
-    font-family: Arial;
+    font-family: roboto;
     font-size: 1em;
 }
 
