@@ -1,0 +1,406 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* nav bar *************************************/
+
+header {
+    justify-content: flex-start;
+    min-height: 15vh;
+    background-color: #F7F7F7;
+    border-top: 40px solid #1B623F;
+}
+
+/* de eerste nav "sign in" en "register" ***********/
+
+ul:nth-child(1) {
+    right: 0;
+    position: absolute;
+    display: flex;
+    margin: 15px 0 0 0;
+    list-style-type: none;
+}
+
+/* "sign in" en "register"  ***********/
+
+ul:nth-child(1) a {
+    text-transform: capitalize;
+    font-size: 1em;
+    margin-right: 15px;
+}
+
+/* het lijntje tussen "sign in" en "register"  ***********/
+
+nav ul:nth-child(1) li:nth-child(1) {
+    border-right: 1px solid #282828;
+}
+
+/* de tweede nav "menu", "coffee", "stories", etc.  ***********/
+
+nav:nth-child(2) {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 15vh;
+    padding-left: 35px;
+}
+
+ul:nth-child(2) {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-top: 50px;
+}
+
+/* zwarte achtergrond bij hover + text wit  *********/
+
+ul:nth-child(2) li:hover a {
+    background-color: black;
+    padding-bottom: 23px;
+    padding-top: 15px;
+    color: white;
+}
+
+
+a {
+    color: #282828;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 300;
+    font-family: Roboto;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0 12px 0 12px;
+}
+
+/* burgermenu *************************************/
+/* link van burgermenu tutorial https://www.youtube.com/watch?v=gXkqy0b4M5g *********/
+
+.burger {
+    display: none;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: #1B623F;
+    margin: 5px;
+}
+
+article {
+    position: relative;
+    background-color: white;
+    padding-top: 30px;
+}
+
+h1 {
+    text-align: left;
+    margin: 0 0 30px 60px;
+    text-transform: capitalize;
+    font-family: 'Crete Round', Georgia;
+    font-size: 2em;
+    font-style: italic;
+    color: black;
+}
+
+/* https://www.youtube.com/watch?v=xoRbkm8XgfQ 
+::before & ::after uitleg */
+
+h1::before{
+    content: open-quote; 
+    font-size: 2em;
+    color: #F7F7F7;
+}
+
+h1::after{
+    content: close-quote; 
+    font-size: 2em;
+    color: #F7F7F7;
+}
+
+h2,
+h3 {
+    margin: 30px auto 0px;
+    text-transform: capitalize;
+    font-family: Roboto;
+    font-size: 25px;
+    color: black;
+    width: 90%;
+}
+
+p {
+    margin: 10px auto;
+    width: 90%;
+    color: darkgrey;
+    font-family: roboto;
+    font-size: .9em;
+    font-weight: 400;
+    line-height: 2.0;
+}
+
+
+img:nth-child(2) {
+    float: left;
+    margin: 0 40px 20px 50px;
+    width: 40%;
+    height: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 30px auto;
+}
+
+th {
+    text-align: left;
+    font-family: roboto;
+    padding: 10px 0 10px 0;
+    font-size: 2em;
+
+}
+
+td {
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    font-weight: 600;
+    font-family: roboto;
+    padding: 10px 10px 10px 0;
+}
+
+td:nth-child(even) {
+    text-align: right;
+    font-weight: 100;
+    padding: 10px 0 10px 10px;
+}
+
+
+/* footer *******************************************************************/
+
+footer {
+    background-color: #f2f2f2;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* footer, social media icons *************/
+
+footer ul:nth-child(1) {
+    position: relative;
+    width: 40%;
+    margin: 20px auto;
+    padding: 0;
+}
+
+footer ul:nth-child(1) li {
+    display: flex;
+    margin: 0 auto;
+    width: 40%;
+
+}
+
+/* ruimte tussen de iconen *********/
+
+footer ul:nth-child(1) a {
+    margin: 0 auto;
+    padding: 0;
+}
+
+footer a:hover {
+    opacity: 0.7;
+}
+
+
+/* Footer form *********/
+
+form {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 90%;
+    justify-content: center;
+}
+
+form input[type=text] {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid darkgrey;
+    font-family: roboto;
+    font-size: 1em;
+}
+
+::placeholder {
+    color: lightgray;
+}
+
+
+form input[type=submit] {
+    padding: 5px 10px 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: .9em;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background-color: #3d3936;
+    width: 135px;
+}
+
+form p {
+    width: 90%;
+    margin: 10px;
+    color: darkgrey;
+    font-family: roboto;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 2.0;
+}
+
+/* verandert in hamburger, (verspringt bij 1125px) *************/
+
+@media screen and (max-width: 1125px) {
+
+    /************** in de hamburger menu ************/
+    .nav2 {
+        right: 0;
+        width: 100%;
+        height: 200px;
+        position: absolute;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        transform: translateY(-50%);
+        transition: 0.3s ease-in;
+        z-index: -999;
+        padding: 20px;
+    }
+
+    /* veranderd de text kleur in het hamburger menu */
+    ul:nth-child(2) a {
+        color: white;
+        padding-left: 60px;
+    }
+
+    /* verplaatst de content in de hamburger menu*/
+    .nav-active {
+        transform: translateY(49%);
+        z-index: 1;
+    }
+
+
+    /* burger menu **********************/
+    .burger {
+        display: block;
+        cursor: pointer;
+        margin: 20px 30px 0 0;
+        margin-left: auto;
+    }
+
+    .kruisje .lijn1 {
+        transform: rotate(45deg) translate(5px, 6px);
+        transition: 0.3s ease;
+    }
+
+    .kruisje .lijn2 {
+        opacity: 0;
+    }
+
+    .kruisje .lijn3 {
+        transform: rotate(-45deg) translate(5px, -6px);
+        transition: 0.3s ease;
+    }
+
+    /* voor een smooth animation, dmv z-index *****/
+    article {
+        z-index: -999;
+    }
+}
+
+/* verandert naar mobile, article + button *************/
+
+@media screen and (max-width: 713px) {
+
+    /* alles onder de nav *************************************/
+
+    article {
+        background-color: white;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    img:nth-child(2) {
+        width: 70%;
+        height: auto;
+    }
+
+    h1 {
+        margin: 20px 0;
+    }
+}
+
+
+/* transitions ***********************/
+/* image transition */
+article img {
+    animation: transitionIn 0.2s;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }  
+}
+
+/* h1 transition */
+h1 {
+    animation: transitionIn_2 0.2s;
+}
+
+@keyframes transitionIn_2 {
+    from {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }  
+}
+
+/* text transition */
+article {
+    animation: transitionIn_3 0.2s;
+}
+
+@keyframes transitionIn_3 {
+    from {
+        opacity: 0;
+        transform: rotateX(-25deg);
+    }
+    
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }  
+}
+
+/* transition link https://www.youtube.com/watch?v=zWB219zf1og */
+
+/* :nth-child() uitleg: https://www.w3schools.com/cssref/sel_nth-child.asp *******/
