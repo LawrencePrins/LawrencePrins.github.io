@@ -1,0 +1,83 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Portfolio - Gemaakte Items</title>
+        <link href="./styles/styles.css" rel="stylesheet" type=text/css>
+         <link href="./styles/lightbox.min.css" rel="stylesheet" type=text/css> 
+         <link href="./styles/fadeIn.css" rel="stylesheet" type=text/css>
+    </head>
+    
+    <body id="pagina_list" class="animated fadeIn">
+        <a href ="index.html"><img src="images/logo.png" alt ="logo" id="logo"></a>
+     <div id="watermark">
+      <p id="opleiding_l">Communicatie &amp; Multi-Media Design</p>
+      <p id="projecten_l">Gemaakte items</p>
+        </div>
+       <nav>
+          <ul>
+            <li><a href="list.html">All</a></li>
+           <li><a href="concept.html">Concept</a></li>
+           <li><a href="vormgeving.html">Vormgeving</a></li>
+           <li><a href="techniek.html" class="active_link">Techniek</a></li>
+           <li><a href="onderzoek.html">Onderzoek</a></li>
+           <li><a href="contact.html" class="opacity_nav">Contact</a></li>
+           </ul>
+       </nav>
+              
+              
+              
+              
+              
+              
+              
+              
+    <div class="grid-container">
+<!-- --------------- GRID 1 ------------------------>
+          <div class="grid-item">
+          <img src="images/programmeren.png" alt="preview" class="afbeelding_project">
+          <p class="onderwerp">//Techniek</p>
+          <p class="titel">Fooi <br>calculator</p>
+          <p class="periode">Programmeren</p>
+          <a href="#" id="button_programmeren" class="button">Zie meer</a>
+          </div>
+    </div>
+    
+    
+   
+    
+    
+<!----------------- POP UP GRID 1 ------------------>
+        <div class="bg-modal_programmeren">
+           <div class="close_programmeren">+</div>
+            <div class="modal-content_programmeren">
+            <img src="images/programmeren.png" alt="lamp" class="afbeelding_project_groot">
+           <p class="onderwerp">//Techniek</p>
+           <p class="titel_groot">Fooi calculator</p>
+           <p class="periode">Programmeren (incl. code)</p>
+           <div class="text">
+           De fooi calculator is een prototype geprogrammeerd in JavaScript. Het berekend de hoogte van de fooi op basis van de hoogte van de rekening en hoe goed de service was (Een goede service is 30%, middelmatig 15% en slecht 5%). Ook rond de calculator het eindbedrag af op 2 decimalen.
+           <br><br>
+           Het prototype is geschreven in semantische correcte code en maakt gebruik van; Functies, Arrays, Dom Manipulatie, Interactieve events en loops. 
+           <br><br>
+           De code is in te zien door op het download linkje te klikken rechts onder!
+           
+           </div>
+           <a href="./rekenmachine/rekenmachine.html" target="_blank" id="view_projects">Check it out!</a>
+           <div class="tooltip">
+               <a href="./rekenmachine_code.pdf" download target="_blank" id="download_link"><img src="./images/download_icon.png" alt="download" width="45" height="45"></a>
+               <span class="tooltip_text">Download code</span>
+               
+           </div>
+            </div>
+        </div>
+
+
+        
+        
+        
+<script src="./js/animatie_techniek.js"></script>
+<script src="./js/lightbox-plus-jquery.min.js"></script>
+    </body>
+    </html>
