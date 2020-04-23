@@ -1,9 +1,5 @@
-@font-face {
- font-family: DIN Alternate;
- src: url("../fonts/DINRegularAlternate.ttf"); }
-
 #pagina1{
-     background: url("/images/background_home.png") no-repeat center center fixed; 
+     background: url("../images/background_home.png") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -25,7 +21,7 @@
 }
 
 #container{
-    font-family: DIN Alternate;
+    font-family: DIN alternate;
     font-size: 14px;
     text-transform: uppercase;
     color: white;
@@ -130,7 +126,7 @@
 /* list pagina **********************************/
 
 #pagina_list{
-     background: url("/images/background_list.png") no-repeat center center fixed; 
+     background: url("../images/background_list.png") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -221,11 +217,9 @@ a:link{
     grid-row-gap:10px;
     float: right;
     margin-top: 50px;
-	margin-left: 100px;
-	
 }
 .grid-item {
-    background: url("/images/thumnail.png"); 
+    background: url("../images/thumnail.png"); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -336,7 +330,7 @@ a:link{
     height: 500px;
     padding: 30px;
     margin-top: 100px;
-  background: url("/images/thumnail.png"); 
+  background: url("../images/thumnail.png"); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -443,7 +437,7 @@ a:link{
     height: 500px;
     padding: 30px;
     margin-top: 100px;
-  background: url("/images/thumnail.png"); 
+  background: url("../images/thumnail.png"); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -504,7 +498,7 @@ a:link{
     height: 500px;
     padding: 30px;
     margin-top: 100px;
-  background: url("/images/thumnail.png"); 
+  background: url("../images/thumnail.png"); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -561,7 +555,7 @@ a:link{
     height: 500px;
     padding: 30px;
     margin-top: 100px;
-  background: url("/images/thumnail.png"); 
+  background: url("../images/thumnail.png"); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -608,7 +602,7 @@ a:link{
     height: 500px;
     padding: 30px;
     margin-top: 100px;
-  background: url("/images/thumnail.png"); 
+  background: url("../images/thumnail.png"); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -661,7 +655,7 @@ a:link{
     height: 500px;
     padding: 30px;
     margin-top: 100px;
-  background: url("/images/thumnail.png"); 
+  background: url("../images/thumnail.png"); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -713,7 +707,7 @@ a:link{
     height: 500px;
     padding: 30px;
     margin-top: 100px;
-  background: url("/images/thumnail.png"); 
+  background: url("../images/thumnail.png"); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -759,7 +753,7 @@ a:link{
     padding: 30px;
     margin-top: 80px;
     margin-left: 330px;
-  background: url("/images/background_contact.png"); 
+  background: url("../images/background_contact.png"); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

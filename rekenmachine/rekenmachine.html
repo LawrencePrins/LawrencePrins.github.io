@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rekenmachine</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+   <!-- verander achtergrond knop -->
+    <button type="button" id="veranderKleur">Verander achtergrond</button>
+    <!-- de iphone -->
+    <div id="container">
+        <h1>Bereken je fooi</h1>
+        <div id="rekenmachine">
+            <form>
+               <!-- label 1, input label -->
+                <label>
+                    <span id="€">€</span><input type="text" autocomplete="off" id="rekeningBedrag" placeholder="Rekening bedrag">
+                </label>
+                <!-- label 2, option label -->
+                <label>
+                    <select id="serviceKwaliteit">
+                        <option disabled selected value="0">Werd je goed geholpen?</option>
+                        <option value="0.3">30% - Ja, geweldig!</option>
+                        <option value="0.15">15% - Mwa, matig</option>
+                        <option value="0.05">5% - Nee, vreselijk</option>
+                    </select>
+                </label>
+                <!-- bereken knop -->
+                <button type="button" id="bereken">Bereken!</button>
+            </form>
+            <div id="totaalBedrag">
+                <span id="fooi">0.00</span>
+            </div><!-- totaalbedrag -->
+        </div><!-- rekenmachine -->
+    </div><!-- container -->
+    <script src="rekenmachine.js"></script>
+</body>
+
+</html>

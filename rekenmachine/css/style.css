@@ -1,0 +1,132 @@
+body {
+    background-color: aliceblue;
+}
+
+#container {
+    width: 330px;
+    height: 560px;
+    margin: 50px auto 0;
+    padding: 3px 10px;
+    box-sizing: border-box;
+    background: url('../images/iphone.png');
+    background-size: 90%;
+    background-repeat: no-repeat;
+    font-family: roboto;
+    color: #987EC1;
+    font-size: 12px;
+}
+
+h1 {
+    font-family: roboto;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 65px 85px 0px;
+    ;
+    color: #f7f7f7;
+}
+
+#rekenmachine {
+    height: 280px;
+    margin: 60px 21px 0px;
+    padding: 10px;
+    width: 235px;
+    box-sizing: border-box;
+}
+
+label {
+    margin: 10px 0px;
+}
+
+form input,
+select {
+    margin: 5px 0px 0px;
+    padding: 20px 0px 0px;
+    display: inline;
+    width: 165px;
+}
+
+#€ {
+    display: inline;
+    font-size: 40px;
+    color: white;
+}
+
+#rekeningBedrag {
+    margin: 20px 0px 10px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #987EC1;
+}
+
+input[type=text] {
+    color: white;
+    text-align: right;
+    font-size: 40px;
+    padding: 5px;
+}
+
+input::placeholder {
+    color: #987EC1;
+    font-size: 13px;
+}
+
+#serviceKwaliteit {
+    color: #987EC1;
+    width: 175px;
+    margin: 20px 0px 0px 23px;
+    padding: 5px;
+    padding-left: 24px;
+    background: none;
+    border: none;
+    border-radius: none;
+    border-bottom: 2px solid #987EC1;
+    text-align: right;
+    font-size: 12px;
+}
+
+select {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+
+}
+
+#bereken {
+    width: 175px;
+    margin: 40px 0px 40px 23px;
+    padding: 5px;
+    background-color: #987EC1;
+    border-radius: 13px;
+    border: none;
+    font-family: roboto;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #D3C1F4;
+    border-bottom: 3px solid #7E66AD;
+}
+
+button:active {
+    position: relative;
+    top: 2px;
+    border-bottom: none;
+    border-top: 3px solid #7E66AD;
+}
+
+#totaalBedrag {
+    font-size: 20px;
+}
+
+#totaalBedrag:before {
+    content: "Fooi bedrag";
+    display: block;
+    font-size: 13px;
+    padding: 0px 20px;
+    margin-right: 50px;
+    float: right;
+}
+
+#fooi {
+    padding: 0px 50px;
+    color: white;
+    font-size: 40px;
+}
